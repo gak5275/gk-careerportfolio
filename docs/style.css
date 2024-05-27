@@ -1,0 +1,135 @@
+:root {
+    --text-margin: 20vw;
+    --img-margin: 20vw;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-family: StardewFont;
+    text-align: center;
+    font-size: 60px;
+}
+h2 {
+    font-family: StardewFont;
+    text-align: center;
+    font-size: 50px;
+}
+h3 {
+    font-family: StardewFont;
+    font-size: 40px;
+    margin-right: var(--text-margin);
+    margin-left: var(--text-margin);
+}
+h4 {
+    margin-right: var(--text-margin);
+    margin-left: var(--text-margin);
+}
+nav {
+    text-align: center;
+    /* width: 80vw; */
+    margin: auto;
+}
+
+p {
+    margin-right: var(--text-margin);
+    margin-left: var(--text-margin);
+}
+
+ul {
+    margin-right: var(--text-margin);
+    margin-left: var(--text-margin);
+}
+
+figure {
+    margin: 25px 0;
+}
+
+body {
+    display: block;
+    /* background-color: #8EE5BE; */
+    background-image: url("images/valleybackgroundfilter.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*  background-color: #cccccc;*/
+    color: #1D1A11;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.4;
+    text-decoration: none;
+    margin: 0 1rem 0 1rem;
+}
+@font-face {
+    font-family: StardewFont;
+    src: url("fonts/Stardew_Valley.ttf");
+}
+#cy {
+    width: 65vw;
+    height: 100vh;
+    position: absolute;
+    margin: auto;
+    border-style: double;
+}
+img.character_dialogue {
+    width: 100%;
+}
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.cc {
+    max-width: 100px;
+}
+img.chick {
+    width: 50px;
+}
+img.player {
+    margin-right: var(--img-margin);
+    margin-left: var(--img-margin);
+}
+.column {
+    float: right;
+    width: 20%;
+
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media (max-width : 600px) {
+    img {
+        max-width: 90vw;
+    }
+    h3,
+    p,
+    ul {
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+}
+
+div#container {
+    width: 80%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.3);
+
+}
+.pythonImage {
+    width: 50%;
+}
+
+img.small {
+    max-width: 1000px;
+}
