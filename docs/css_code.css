@@ -37,6 +37,12 @@ h5 {
     margin-left: var(--text-margin);
     font-size: 30px;
 }
+h6 {
+    margin-right: var(--text-margin);
+    margin-left: var(--text-margin);
+    text-align: center;
+    font-size: 20px;
+}
 nav {
     text-align: center;
     /* width: 80vw; */
